@@ -11,7 +11,7 @@ class student
 		
 		void getStudentData()
 		{
-			cout<<" \nKindly enter Roll Number of Student: ";
+			cout<<" \n Kindly enter Roll Number of Student: ";
 			cin>>RNo;
 			cout<<" Kindly enter Student's Name: ";
 			cin>>sname;
@@ -45,6 +45,7 @@ class result:public test
 			Total=markSub1+markSub2+markSub3;
 		
 			cout<<"\n Student Roll No: "<<RNo<<endl;
+			cout<<" Student Name: "<<sname<<endl;
 			cout<<" Mark 1: "<<markSub1<<endl;
 			cout<<" Mark 2: "<<markSub2<<endl;
 			cout<<" Mark 3: "<<markSub1<<endl;
@@ -54,8 +55,6 @@ class result:public test
 
 int main()
 {
-	student t;
-	test s;
 	result r;
 	
 	cout<<endl<<"-----------\nStudent details:";

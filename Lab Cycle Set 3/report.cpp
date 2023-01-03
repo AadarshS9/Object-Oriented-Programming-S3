@@ -9,7 +9,7 @@ class student
 		int RNo,M1,M2;
 		void getStudentData()
 		{
-			cout<<" \nKindly enter Roll Number of Student: ";
+			cout<<" \n Kindly enter Roll Number of Student: ";
 			cin>>RNo;
 			cout<<" Kindly enter Student's Mark 1: ";
 			cin>>M1;
@@ -58,8 +58,6 @@ class report:public student,public sport
 
 int main()
 {
-	student t;
-	sport s;
 	report r;
 	
 	cout<<endl<<"-----------\nStudent details:";
