@@ -27,7 +27,7 @@ class student {
 			return total;
 		}
 		
-		void showData()
+		virtual void showData()
 		{
 			cout<<endl<<"   Roll no: "<<rollno;
 			cout<<endl<<"   Name: "<<name;
@@ -52,7 +52,7 @@ class minorcourse : public student {
 			cin>>minorm3;
 		}
 		
-		virtual void showData()
+		void showData()
 		{
 			cout<<endl<<"   Roll no: "<<rollno;
 			cout<<endl<<"   Name: "<<name;
